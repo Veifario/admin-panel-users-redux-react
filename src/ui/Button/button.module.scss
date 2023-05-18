@@ -1,0 +1,18 @@
+.root {
+	border: none;
+	outline: none;
+	background: none;
+
+	padding: 10px 15px;
+
+	background-color: var(--blue);
+	border-radius: 5px;
+
+	font-size: 18px;
+	color: #ffffff;
+	cursor: pointer;
+
+	&.delete {
+		background-color: var(--red);
+	}
+}
